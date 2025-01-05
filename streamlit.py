@@ -10,7 +10,7 @@ from langchain.retrievers.multi_query import MultiQueryRetriever
 from langchain.retrievers import BM25Retriever, EnsembleRetriever
 from langchain_community.llms.ollama import Ollama
 from langchain_community.llms import HuggingFaceEndpoint
-from langchain_huggingface.llms import HuggingFacePipeline
+from langchain.llms import HuggingFacePipeline
 from transformers import AutoModelForCausalLM, AutoTokenizer, AutoModelForQuestionAnswering, pipeline
 # ... other necessary imports ...
 
